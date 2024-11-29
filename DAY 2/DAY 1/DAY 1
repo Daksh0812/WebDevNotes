@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <h2> Hello Rohit Singh!</h2>
+    <h3> Hello John Sir!</h3>
+    <h4> Hello Apple Mac!</h4>
+    <h5> Hello Amit!</h5>
+    <h6> Hello Mohit!</h6>    
+    <p> Hello myself Rohit Singh I am from Ara Bihar. I am a Mac user.  I want to become a Software Enginner. Software Engineer is a professional responsible for building and maintaining software applications or systems. Their role encompasses the entire software development lifecycle, from initial concept and design to coding, testing, deployment, and ongoing maintenance.</p>
+    <img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/2023/03_29_revuelto/gate_models_s_02_m.jpg" alt="Lambhorgini" width= "100px" height= "100px"/ >
+    <br>
+    <img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/2023/03_29_revuelto/gate_models_s_02_m.jpg" alt="Lambho" width= "200px" height= "200px"/ >
+    <br>
+<img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/2023/03_29_revuelto/gate_models_s_02_m.jpg" alt="Lambho" width= "300px" height= "300px"/ >
+<form> <input>
+<a href= "https://www.isro.gov.in/" target="_blank">Explore ISRO Release!
+    NASA is for India. Government Authority.
+</a>
+
+<form actions="">
+    <label for="name">Name=</label>
+    <input type="text">
+    <br>
+    <label type="text">
+        <br>
+        <label for="">Email=</label>
+        <input type="Email">
+        <br>
+        <label for=" password"> Password=</label>
+        <input type="Password" name="" id="">
+        <br>
+        <label for="dob"> Date Of Birth</label>
+        <input type="date" name=""id="">
+        <br>
+        <label for=""> Enter your message</label>
+        <textarea> </textarea>
+    </form>`
+    <h1>H<sub2</sub>SO <sub4</sub> </sub> 
+        <h1></h1>
+ </body>
+</html>
