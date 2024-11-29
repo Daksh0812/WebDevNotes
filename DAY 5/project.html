@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .parent{
+                display: flex;
+                gap: 20px;
+                flex-wrap: wrap;
+            }
+            .parent div{
+                height: 600px;
+                width: 600px;
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb0sg-rTI2UQk0NKzbhnkdM2fedypgkGVslg&s);
+                background-size: cover;
+                background-position: center;
+            }
+            @media (max-width: 1000px){
+                .parent div{
+                    height: 300px;
+                    width: 300px;
+                    border-radius:50%;
+                }
+            }
+            @media (max-width: 500px){
+                .parent div{
+                    height: 100px;
+                    width: 100px;
+                    border: 20px 0px 20px 0px;
+                 }
+            }
+            @media (max-width: 700px){
+                .parent div{
+                    height: 200px;
+                    width: 200px;
+                    border-radius: 70%;
+                }
+            }
+        </style>
+    </head>    
+    <div class="parent">
+        <div class="chilOne"></div>
+        <div class="childTwo"></div>
+        <div class="childThree"></div>
+        <div class="childFour"></div>
+        <div class="childFive"></div>
+    </div>
+</html>
