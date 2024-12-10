@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .A{
+            position:relative;
+            justify-content: center;
+        }
+        
+           
+       
+         
+       
+    </style>
+</head>
+<body>
+    <div class="A"><h1 id="check">
+        Check your eligiblity
+    </h1>
+    <button onclick="checkAge()">Check your age</button>
+
+    <script>
+        const checkAge=()=>{
+            let age=window.prompt("Please enter your age")
+            let check=document.getElementById("check")
+            if(age>=18){
+                check.innerHTML="You are eligible to vote"
+            }
+            else{
+                check.innerHTML="You are not eligible to vote"
+            }
+        }
+    </script></div>
+</body>
+
+</html>

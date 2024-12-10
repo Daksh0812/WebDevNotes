@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .A{
+            background-color: black;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            justify-content: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="A"></div><h1 ="light">
+        Turn on bulb here
+    </h1>
+    <button status="lightBulb" onclick="lightBulb()">Switch on</button>
+
+    <script>
+        const lightBulb=()=>{
+            let bulb=window.prompt("Please click here")
+            let light=document.getElementById("light")
+            if(lightBulb){
+                check.statusHTML.backgroundcolor="grey"
+                status= false
+            }
+            else{
+                check.statusHTML.backgroundcolor="yellow"
+                status= true
+            }
+        }
+    </script></div>
+    
+</body>
+</html>

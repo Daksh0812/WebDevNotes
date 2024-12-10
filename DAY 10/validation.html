@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h1>Welcome</h1>
+        <label for="">Username</label>
+        <input type="text" value="" id="Username">
+        <label for="">Email</label>
+        <input typle="Email" value="" id="Email">
+        <label for="">Password</label>
+        <input type="Password" value="" id="Password">
+        <label for="">Confirm Password</label>
+        <input type="Password" value="" id="confirmPassword">
+        <button type="submit" onclick="submitform()">Submit</button>
+
+    </form>
+    <script>
+        const submitform=()=>{
+            let Username= document.getElementById("Username").value
+            let Password= document.getElementById("Password").value
+            let Email= document.getElementById("Email").value
+            let confirmPassword= document.getElementById("confirmPassword").value
+            console.log("checking the form")
+        
+            if (!Username || !Password || !confirmPassword){
+                window.alert("please enter all the input fields")
+                return
+            }
+            if(Password.lenght<8){
+                window.alert("Password must be at least 8 characters")
+                return
+            }
+            if(Password !== confirmPassword){
+                window.alert("Password do not match")
+                return
+            }
+            else{
+                window.alert("form submitted successfully.")
+            }
+        }
+    </script>
+    
+</body>
+</html>

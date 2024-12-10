@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+    #box{
+            height: 300px;
+            width: 300px;
+            background-color: gray;
+            box-shadow: 10px 10px 100px 20px gray;
+            border-radius: 50%;
+        }
+        .section{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            gap: 100px;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>This is a traffic light</h1>
+    <div class="sections">
+        <div id="box" draggable="true" style="box-shadow: red 10px 10px 100px 10px; background-color: grey;">
+            
+        </div>
+        <div id="box" class="sunTwo" draggable="true" style="box-shadow: yellow 10px 10px 100px 10px; background-color: grey;">
+            
+            
+        </div>
+        <div id="box" draggable="true" style="box-shadow:green 10px 10px 100px 10px; background-color: grey;">
+        </div>
+
+    </div>
+
+    <button>click Me</button>
+    <script>
+    
+       
+    const sunLight=()=>{
+            let sun=document.getElementById('box')
+            let sunTwo=document.getElementsByClassName('sunTwo')[0]
+            let sunThree=document.getElementsByClassName('sunThree')[0]
+
+            sun.addEventListener("mouseenter",()=>{
+            sun.style.boxShadow="10px 10px 100px 10px red";
+            sun.style.backgroundColor="red";
+            })
+            sunTwo.addEventListener("mouseenter",()=>{
+            sunTwo.style.boxShadow="10px 10px 100px 10px yellow";
+            sunTwo.style.backgroundColor="ywllow";
+            })
+            sunThree.addEventListener("mouseenter",()=>{
+            sunThree.style.boxShadow="10px 10px 100px 10px green";
+            sunThree.style.backgroundColor="green";
+            })
+
+
+           
+           
+        }
+        sunLight()
+    
+    </script>
+    
+</body>
+</html>

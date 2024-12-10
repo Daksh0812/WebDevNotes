@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .A{
+            height: 200px ;
+            width:200px ;
+            justify-content: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="A">
+    <h1 id="idSelectors" class="classSelector">Hello, world!</h1>
+    <button onclick="idSelectors()">Use Id</button>
+    <button onclick="classSelectors()">Use class</button>
+    <button onclick="querySelectorDemo">Use query</button>
+    </div>
+    <script>
+        const idSelectors=()=>{
+        let element= document.getElementById("idSelectors")
+        console.log(element)
+        element.innerHTML="This is Dushyant and i am selector"
+        }
+        const classSelectors=()=>{
+            document.getElementByClassName('classSelectors')[0].innerHTML="This is dushyant and i am using class selector"
+        }
+        function querySelectorDemo(){
+        document.querySelector('#idSelectors').innerHTML="This is Dushyant and i am using query selector"
+        }
+    </script>
+</body>
+</html>
